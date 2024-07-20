@@ -1,19 +1,19 @@
 {% set name = "bfiocpp" %}
-{% set version = "0.2.3" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }} 
+  version: {{ version }}
 
 source:
   url: https://github.com/PolusAI/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: bf4b6545094064ab8880dddd446a768cdd441ae8ae1f32e0f89e71451a802e8d
+  sha256: ee57ff01b29d804c2a440f968e15988c00bf1f62dc5de7b5222e71e750a9b22d
   patches:
     - windows_build.patch
     - cmake_osx_png.patch
 build:
   skip: true  # [py2k or py<39]
-  number: 4
+  number: 0
 
 requirements:
   build:
@@ -68,7 +68,7 @@ about:
     The bfiocpp library provides a tensorstore based backend for bfio library to efficiently read
     OME Tiff and OME NGFF files
   license: Apache-2.0 AND MIT AND BSD-3-Clause AND BSD-2-Clause
-  license_file: 
+  license_file:
     - LICENSE
     - 3rd_party/absl/LICENSE
     - 3rd_party/half/LICENSE.txt
