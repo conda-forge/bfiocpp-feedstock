@@ -13,7 +13,7 @@ source:
     - cmake_osx_png.patch
 build:
   skip: true  # [py2k or py<39]
-  number: 3
+  number: 4
 
 requirements:
   build:
@@ -41,7 +41,7 @@ requirements:
     - libpng
     - libwebp
     - lz4
-    - xz
+    - liblzma-devel
     - zlib
     - libprotobuf
     - benchmark
