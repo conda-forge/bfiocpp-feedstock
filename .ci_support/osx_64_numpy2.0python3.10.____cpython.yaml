@@ -9,7 +9,7 @@ c_ares:
 c_compiler:
 - clang
 c_compiler_version:
-- '17'
+- '18'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -21,13 +21,15 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '17'
+- '18'
 libavif:
 - '1'
 libcurl:
 - '8'
 libjpeg_turbo:
 - '3'
+liblzma_devel:
+- '5'
 libpng:
 - '1.6'
 libprotobuf:
@@ -50,8 +52,6 @@ python:
 - 3.10.* *_cpython
 target_platform:
 - osx-64
-xz:
-- '5'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
