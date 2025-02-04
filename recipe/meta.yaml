@@ -1,5 +1,5 @@
 {% set name = "bfiocpp" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://github.com/PolusAI/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: c9bf661a7b8cb2505cf95d64eabbcce7a041bef7a1e7215a61286d61aadf81f5
+  sha256: 9924993a9c19c13c70715e0343e33cdd8eb7af812bdbaf86c7f5e070af6970dc
   patches:
     - windows_build.patch
     - cmake_osx_png.patch
 build:
   skip: true  # [py2k or py<39]
-  number: 5
+  number: 0
 
 requirements:
   build:
