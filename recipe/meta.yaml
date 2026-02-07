@@ -12,7 +12,7 @@ source:
     - windows_build.patch
     - cmake_osx_png.patch
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
