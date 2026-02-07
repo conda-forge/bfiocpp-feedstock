@@ -9,7 +9,7 @@ c_ares:
 c_compiler:
 - clang
 c_compiler_version:
-- '18'
+- '19'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -21,7 +21,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '18'
+- '19'
 libavif:
 - '1'
 libcurl:
@@ -33,7 +33,7 @@ liblzma_devel:
 libpng:
 - '1.6'
 libprotobuf:
-- 6.31.1
+- 6.33.5
 libtiff:
 - '4.7'
 libwebp:
@@ -43,7 +43,7 @@ macos_machine:
 numpy:
 - '2'
 openssl:
-- '3'
+- '3.5'
 pin_run_as_build:
   python:
     min_pin: x.x
