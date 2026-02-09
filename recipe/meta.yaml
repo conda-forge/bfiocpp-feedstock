@@ -45,8 +45,7 @@ requirements:
     - libprotobuf
     - benchmark
     - pybind11
-    # this is header-only, so should be OK
-    - nlohmann_json 3.10.5
+    - nlohmann_json 3.12.0
     - libavif
 
   run:
