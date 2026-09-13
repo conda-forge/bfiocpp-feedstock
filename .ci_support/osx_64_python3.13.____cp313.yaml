@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '11.0'
+- '10.14'
 MACOSX_SDK_VERSION:
-- '11.0'
+- '10.15'
 bzip2:
 - '1'
 c_ares:
@@ -9,11 +9,11 @@ c_ares:
 c_compiler:
 - clang
 c_compiler_version:
-- '19'
+- '21'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
-- '11.0'
+- '10.14'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -21,7 +21,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '19'
+- '21'
 libavif:
 - '1'
 libcurl:
@@ -33,7 +33,7 @@ liblzma_devel:
 libpng:
 - '1.6'
 libprotobuf:
-- 6.31.1
+- 7.35.1
 libtiff:
 - '4.7'
 libwebp:
@@ -55,6 +55,8 @@ target_platform:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
+- - python
+  - channel_sources
 zlib:
 - '1'
 zstd:
