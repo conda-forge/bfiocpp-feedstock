@@ -3,7 +3,9 @@ bzip2:
 c_ares:
 - '1'
 c_compiler:
-- vs2022
+- vs
+c_compiler_version:
+- '2022'
 c_stdlib:
 - vs
 channel_sources:
@@ -11,7 +13,9 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2022
+- vs
+cxx_compiler_version:
+- '2022'
 libavif:
 - '1'
 libcurl:
@@ -23,7 +27,7 @@ liblzma_devel:
 libpng:
 - '1.6'
 libprotobuf:
-- 6.31.1
+- 7.35.1
 libtiff:
 - '4.7'
 libwebp:
@@ -43,4 +47,4 @@ target_platform:
 zlib:
 - '1'
 zstd:
-- '1.5'
+- '1.6'
